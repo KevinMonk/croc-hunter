@@ -14,7 +14,7 @@ podTemplate(label: 'jenkins-pipeline', containers: [
     containerTemplate(name: 'helm', image: 'dtzar/helm-kubectl:2.8.1', command: 'cat', ttyEnabled: true),
     containerTemplate(name: 'kubectl', image: 'lachlanevenson/k8s-kubectl:v1.9.3', command: 'cat', ttyEnabled: true)
 ],
-serviceAccount: 'jenkins-jenkins'
+serviceAccount: 'jenkins-jenkins',
 volumes:[
     hostPathVolume(mountPath: '/var/run/docker.sock', hostPath: '/var/run/docker.sock'),
 ]){
