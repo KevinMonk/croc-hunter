@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="406c4ff8-3327-4748-a6f4-6426543b77de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/charts/croc-hunter/values.yaml" afterPath="$PROJECT_DIR$/charts/croc-hunter/values.yaml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,6 +23,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="values.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/charts/croc-hunter/values.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,16 +47,16 @@
         <entry file="file://$PROJECT_DIR$/keys/quay-credentials">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="117" lean-forward="true" selection-start-line="0" selection-start-column="117" selection-end-line="0" selection-end-column="117" />
+              <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
+            <state relative-caret-position="1142">
               <caret line="117" column="141" lean-forward="false" selection-start-line="117" selection-start-column="141" selection-end-line="117" selection-end-column="141" />
               <folding />
             </state>
@@ -73,6 +83,7 @@
         <option value="$PROJECT_DIR$/keys/quay-credentials" />
         <option value="$PROJECT_DIR$/Jenkinsfile.json" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/charts/croc-hunter/values.yaml" />
       </list>
     </option>
   </component>
@@ -122,6 +133,17 @@
           <expand>
             <path>
               <item name="croc-hunter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="croc-hunter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="croc-hunter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="croc-hunter" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="croc-hunter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="croc-hunter" type="462c0819:PsiDirectoryNode" />
+              <item name="charts" type="462c0819:PsiDirectoryNode" />
               <item name="croc-hunter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -216,10 +238,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keys/quay-credentials">
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="117" lean-forward="true" selection-start-line="0" selection-start-column="117" selection-end-line="0" selection-end-column="117" />
+        <state relative-caret-position="1142">
+          <caret line="117" column="141" lean-forward="false" selection-start-line="117" selection-start-column="141" selection-end-line="117" selection-end-column="141" />
           <folding />
         </state>
       </provider>
@@ -232,10 +254,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+    <entry file="file://$PROJECT_DIR$/keys/quay-credentials">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="117" column="141" lean-forward="false" selection-start-line="117" selection-start-column="141" selection-end-line="117" selection-end-column="141" />
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/charts/croc-hunter/values.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding />
         </state>
       </provider>

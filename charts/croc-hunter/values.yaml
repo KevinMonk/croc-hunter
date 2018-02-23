@@ -12,7 +12,7 @@ image: "quay.io/eamonkeane/croc-hunter"
 imageTag: "latest"
 imagePullPolicy: "Always"
 ## If you have a private registry you specify a secret to use
-#imagePullSecrets:
+imagePullSecrets: croc-hunter-secrets
 cpu: "10m"
 memory: "128Mi"
 ## Ingress settings
