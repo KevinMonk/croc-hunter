@@ -3,7 +3,7 @@
 // load pipeline functions
 // Requires pipeline-github-lib plugin to load library from github
 
-@Library('github.com/lachie83/jenkins-pipeline@dev')
+@Library('github.com/EamonKeane/jenkins-pipeline@dev')
 
 def pipeline = new io.estrado.Pipeline()
 
@@ -73,7 +73,8 @@ volumes:[
     stage ('test deployment') {
 
       container('helm') {
-
+        //ensures that helm is initialised in cluster with appropriate credentials before continuing
+        sh "helm init --wait --service-account tiller"
         // run helm chart linter
         pipeline.helmLint(chart_dir)
 
@@ -131,6 +132,8 @@ volumes:[
     if (env.BRANCH_NAME =~ "PR-*" ) {
       stage ('deploy to k8s') {
         container('helm') {
+          //ensures that helm is initialised in cluster with appropriate credentials before continuing
+          sh "helm init --wait --service-account tiller"
           // Deploy using Helm chart
           pipeline.helmDeploy(
             dry_run       : false,
