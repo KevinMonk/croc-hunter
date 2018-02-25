@@ -142,6 +142,7 @@ volumes:[
             chart_dir     : chart_dir,
             set           : [
               "imageTag": image_tags_list.get(0),
+              "image": config.image,
               "replicas": config.app.replicas,
               "cpu": config.app.cpu,
               "memory": config.app.memory,

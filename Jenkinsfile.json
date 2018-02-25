@@ -8,6 +8,7 @@
     "hostname": "croc-hunter.testazaks3.win"
   },
   "container_repo": {
+    "image": "quay.io/eamonkeane/croc-hunter",
     "host": "quay.io",
     "master_acct": "eamonkeane",
     "alt_acct": "eamonkeane",
