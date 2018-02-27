@@ -131,8 +131,6 @@ volumes:[
     if (env.BRANCH_NAME =~ "PR-*" ) {
       stage ('deploy to k8s') {
         container('helm') {
-          //ensures that helm is initialised in cluster with appropriate credentials before continuing
-          sh "helm init --wait --service-account tiller"
           // Deploy using Helm chart
           pipeline.helmDeploy(
             dry_run       : false,
