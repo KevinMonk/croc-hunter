@@ -73,8 +73,6 @@ volumes:[
     stage ('test deployment') {
 
       container('helm') {
-        //ensures that helm is initialised in cluster with appropriate credentials before continuing
-        sh "helm init --wait --service-account tiller"
         // run helm chart linter
         pipeline.helmLint(chart_dir)
 
