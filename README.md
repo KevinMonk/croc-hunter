@@ -1,5 +1,3 @@
-A minor change to see if webhook fires! And another!
-
 # Croc Hunter - The game!
 
 For those that have dreamt to hunt crocs
