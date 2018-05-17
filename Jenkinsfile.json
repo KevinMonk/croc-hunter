@@ -9,7 +9,7 @@
   },
   "container_repo": {
     "image": "docker-registry-docker-registry.jenkins/kevin8/croc-hunter",
-    "host": "docker-registry-docker-registry.jenkins",
+    "host": "docker-registry-docker-registry.jenkins:5000",
     "master_acct": "kevin8",
     "alt_acct": "eamonkeane",
     "jenkins_creds_id": "quay_creds",
