@@ -8,8 +8,8 @@
     "hostname": "croc-hunter2.docker.mangoswiss.com"
   },
   "container_repo": {
-    "image": "kissed-garfish-docker-registry/kevin8/croc-hunter",
-    "host": "kissed-garfish-docker-registry.default:5000",
+    "image": "docker-registry-docker-registry.jenkins/kevin8/croc-hunter",
+    "host": "docker-registry-docker-registry.jenkins",
     "master_acct": "kevin8",
     "alt_acct": "eamonkeane",
     "jenkins_creds_id": "quay_creds",
