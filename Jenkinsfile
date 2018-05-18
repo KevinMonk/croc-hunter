@@ -95,6 +95,8 @@ volumes:[
       }
     }
 
+    input 'stop'
+
     stage ('publish container') {
 
       container('docker') {
