@@ -10,8 +10,8 @@
   "container_repo": {
     "image": "index.docker.io/sardjv/croc-hunter",
     "host": "index.docker.io",
-    "master_acct": "sardjv",
-    "alt_acct": "sardjv",
+    "master_acct": "kevinmonk",
+    "alt_acct": "kevinmonk",
     "jenkins_creds_id": "docker_hub_creds",
     "repo": "croc-hunter",
     "dockeremail": ".",
