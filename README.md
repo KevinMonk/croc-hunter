@@ -13,4 +13,3 @@ Basic go webserver to demonstrate example CI/CD pipeline using Kubernetes
 * See DEMO.md for steps
 
 change -- ignore
-change -- ignore
