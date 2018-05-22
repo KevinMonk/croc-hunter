@@ -8,7 +8,7 @@
     "hostname": "croc-hunter2.docker.mangoswiss.com"
   },
   "container_repo": {
-    "image": "sardjv/croc-hunter",
+    "image": "kevinmonk/croc-hunter",
     "host": "",
     "master_acct": "kevinmonk",
     "alt_acct": "kevinmonk",
