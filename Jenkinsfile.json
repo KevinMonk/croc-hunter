@@ -8,10 +8,10 @@
     "hostname": "croc-hunter2.docker.mangoswiss.com"
   },
   "container_repo": {
-    "image": "kevinmonk/croc-hunter",
-    "host": "",
-    "master_acct": "kevinmonk",
-    "alt_acct": "kevinmonk",
+    "image": "registry.hub.docker.com/sardjv/croc-hunter",
+    "host": "registry.hub.docker.com",
+    "master_acct": "sardjv",
+    "alt_acct": "sardjv",
     "jenkins_creds_id": "docker_hub_creds",
     "repo": "croc-hunter",
     "dockeremail": ".",
