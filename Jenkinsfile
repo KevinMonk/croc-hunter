@@ -105,6 +105,8 @@ volumes:[
           sh "docker login -u ${env.USERNAME} -p ${env.PASSWORD} ${config.container_repo.host}"
         }
 
+
+        println "This is the image_tags_list" + image_tags_list
         // build and publish container
         pipeline.containerBuildPub(
             dockerfile: config.container_repo.dockerfile,
